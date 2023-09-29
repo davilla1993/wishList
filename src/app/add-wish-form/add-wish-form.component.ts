@@ -12,7 +12,6 @@ export class AddWishFormComponent implements OnInit{
   addWish = new EventEmitter<WishItem>();
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
   }
 
   newWishText: any = '';
