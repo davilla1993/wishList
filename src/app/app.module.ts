@@ -3,24 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms';
-import { WishListComponent } from './wish-list/wish-list.component';
-import { AddWishFormComponent } from './add-wish-form/add-wish-form.component';
-import { WishFilterComponent } from './wish-filter/wish-filter.component';
-import { WishListItemComponent } from './wish-list-item/wish-list-item.component';
+import { WishModule } from './wish/wish.module';
+import { ContactModule } from './contact/contact.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    WishListComponent,
-    AddWishFormComponent,
-    WishFilterComponent,
-    WishListItemComponent
+    AppComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    WishModule,
+    ContactModule
   ],
   providers: [],
   bootstrap: [AppComponent]

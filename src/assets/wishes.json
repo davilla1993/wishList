@@ -1,0 +1,8 @@
+[
+  {"wishText": "Learn React", "isComplete": false},
+  {"wishText": "Learn Angular", "isComplete": true},
+  {"wishText": "Start e-commerce project", "isComplete": true},
+  {"wishText": "Implements CI/CD", "isComplete": true},
+  {"wishText": "Get Kubernetes certificate", "isComplete": false}
+
+]
